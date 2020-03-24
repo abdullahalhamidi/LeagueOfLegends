@@ -33,15 +33,15 @@ for id in obj['data']:
 
 
 class ChampionsTb(models.Model):
- idCol = models.CharField()
- nameCol = models.CharField()
- titleCol = models.CharField()
- blurbCol = models.CharField()
+ idCol = models.CharField(max_length=100)
+ nameCol = models.CharField(max_length=100)
+ titleCol = models.CharField(max_length=300)
+ blurbCol = models.CharField(max_length=2000)
  attackCol = models.IntegerField()
  defenseCol = models.IntegerField()
  magicCol = models.IntegerField()
  difficultyCol = models.IntegerField()
- imageCol = models.CharField()
+ imageCol = models.CharField(max_length=200)
  hpCol = models.FloatField()
  movespeedCol = models.FloatField()
  armorCol = models.FloatField()
