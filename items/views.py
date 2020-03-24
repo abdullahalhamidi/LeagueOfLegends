@@ -1,10 +1,7 @@
-import os
 from django.shortcuts import render
-from django.http import HttpResponse
 import json
 import urllib.request
 from django.db import models
-import shutil
 
 
 def items(request):
@@ -25,11 +22,7 @@ for item in obj['data']:
     itemImage = obj['data'][item]['image']['full']
     itemPrice = obj['data'][item]['gold']['base']
     itemSell = obj['data'][item]['gold']['sell']
-    imageUrl = 'http://ddragon.leagueoflegends.com/cdn/10.6.1/img/item/' + itemImage
-    image = urllib.request.urlretrieve(imageUrl, itemImage)
-    print(itemImage)
-    files = itemImage
-    shutil.move(files, '/images')
+
 
 
 
