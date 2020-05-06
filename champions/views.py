@@ -1,59 +1,61 @@
 from django.shortcuts import render
 import json
 import urllib.request
-from django.db import models
+from . import models, admin
+from django.http import HttpResponse
+
+from .models import ChampionsTb
 
 
-# Download raw json object
-url = "http://ddragon.leagueoflegends.com/cdn/10.6.1/data/en_US/champion.json"
-data = urllib.request.urlopen(url).read().decode()
-
-# Parse json object
-obj = json.loads(data)
-
-# Access json elements
-try:
- for id in obj['data']:
-  title = obj['data'][id]['id']
-  name = obj['data'][id]['name']
-  title = obj['data'][id]['title']
-  blurb =  obj['data'][id]['blurb']
-  attack = obj['data'][id]['info']['attack']
-  defense = obj['data'][id]['info']['defense']
-  magic = obj['data'][id]['info']['magic']
-  difficulty = obj['data'][id]['info']['difficulty']
-  image = obj['data'][id]['image']['full']
-  hp = obj['data'][id]['stats']['hp']
-  movespeed = obj['data'][id]['stats']['movespeed']
-  armor =  obj['data'][id]['stats']['armor']
-  attackrange = obj['data'][id]['stats']['attackrange']
-  hpregen = obj['data'][id]['stats']['hpregen']
-  attackdamage = obj['data'][id]['stats']['attackdamage']
-  attackspeed = obj['data'][id]['stats']['attackspeed']
-except Exception as problem:
-    print("An error has occured" + type(problem), problem.args)
-
-
-# Created Table with Columns
-class ChampionsTb(models.Model):
- idCol = models.CharField(max_length=100)
- nameCol = models.CharField(max_length=100)
- titleCol = models.CharField(max_length=300)
- blurbCol = models.CharField(max_length=2000)
- attackCol = models.IntegerField()
- defenseCol = models.IntegerField()
- magicCol = models.IntegerField()
- difficultyCol = models.IntegerField()
- imageCol = models.CharField(max_length=200)
- hpCol = models.FloatField()
- movespeedCol = models.FloatField()
- armorCol = models.FloatField()
- attackrangeCol = models.FloatField()
- hpregenCol = models.FloatField()
- attackdamageCol = models.FloatField()
- attackspeedCol = models.FloatField()
-
-
-# Render out content
 def champions(request):
-    return render(request, 'champions.html')
+    if not models.ChampionsTb.objects.all():
+        # Download raw json object
+        url = "http://ddragon.leagueoflegends.com/cdn/10.6.1/data/en_US/champion.json"
+        data = urllib.request.urlopen(url).read().decode()
+
+        # Parse json object
+        obj = json.loads(data)
+
+        # Access json elements
+        for id in obj['data']:
+            idname = obj['data'][id]['id']
+            name = obj['data'][id]['name']
+            title = obj['data'][id]['title']
+            blurb = obj['data'][id]['blurb']
+            attack = obj['data'][id]['info']['attack']
+            defense = obj['data'][id]['info']['defense']
+            magic = obj['data'][id]['info']['magic']
+            difficulty = obj['data'][id]['info']['difficulty']
+            image = obj['data'][id]['image']['full']
+            hp = obj['data'][id]['stats']['hp']
+            movespeed = obj['data'][id]['stats']['movespeed']
+            armor = obj['data'][id]['stats']['armor']
+            attackrange = obj['data'][id]['stats']['attackrange']
+            hpregen = obj['data'][id]['stats']['hpregen']
+            attackdamage = obj['data'][id]['stats']['attackdamage']
+            attackspeed = obj['data'][id]['stats']['attackspeed']
+            # Insert into table
+            championssavedata = models.ChampionsTb()
+            championssavedata.idCol = idname
+            championssavedata.nameCol = name
+            championssavedata.titleCol = title
+            championssavedata.blurbCol = blurb
+            championssavedata.attackCol = attack
+            championssavedata.defenseCol = defense
+            championssavedata.magicCol = magic
+            championssavedata.difficultyCol = difficulty
+            championssavedata.imageCol = image
+            championssavedata.hpCol = hp
+            championssavedata.movespeedCol = movespeed
+            championssavedata.armorCol = armor
+            championssavedata.attackrangeCol = attackrange
+            championssavedata.hpregenCol = hpregen
+            championssavedata.attackdamageCol = attackdamage
+            championssavedata.attackspeedCol = attackspeed
+            championssavedata.save()
+    else:
+        print("There is data in the database")
+
+    #Giving us errors because of the queryset
+    championsName = models.ChampionsTb.objects.values_list('nameCol')
+    return render(request, 'champions.html', championsName)
