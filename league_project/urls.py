@@ -6,6 +6,7 @@ from homepage.views import homepage
 from items.views import items
 
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^$', homepage),

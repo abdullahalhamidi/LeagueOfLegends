@@ -3,7 +3,6 @@ import json
 import urllib.request
 from . import models, admin
 from django.http import HttpResponse
-
 from .models import ChampionsTb
 
 
@@ -20,42 +19,42 @@ def champions(request):
         for id in obj['data']:
             idname = obj['data'][id]['id']
             name = obj['data'][id]['name']
-            title = obj['data'][id]['title']
+            # title = obj['data'][id]['title']
             blurb = obj['data'][id]['blurb']
-            attack = obj['data'][id]['info']['attack']
-            defense = obj['data'][id]['info']['defense']
-            magic = obj['data'][id]['info']['magic']
+            # attack = obj['data'][id]['info']['attack']
+            # defense = obj['data'][id]['info']['defense']
+            # magic = obj['data'][id]['info']['magic']
             difficulty = obj['data'][id]['info']['difficulty']
-            image = obj['data'][id]['image']['full']
+            # image = obj['data'][id]['image']['full']
             hp = obj['data'][id]['stats']['hp']
-            movespeed = obj['data'][id]['stats']['movespeed']
-            armor = obj['data'][id]['stats']['armor']
-            attackrange = obj['data'][id]['stats']['attackrange']
-            hpregen = obj['data'][id]['stats']['hpregen']
+            # movespeed = obj['data'][id]['stats']['movespeed']
+            # armor = obj['data'][id]['stats']['armor']
+            # attackrange = obj['data'][id]['stats']['attackrange']
+            # hpregen = obj['data'][id]['stats']['hpregen']
             attackdamage = obj['data'][id]['stats']['attackdamage']
-            attackspeed = obj['data'][id]['stats']['attackspeed']
+            # attackspeed = obj['data'][id]['stats']['attackspeed']
             # Insert into table
             championssavedata = models.ChampionsTb()
             championssavedata.idCol = idname
             championssavedata.nameCol = name
-            championssavedata.titleCol = title
+            # championssavedata.titleCol = title
             championssavedata.blurbCol = blurb
-            championssavedata.attackCol = attack
-            championssavedata.defenseCol = defense
-            championssavedata.magicCol = magic
+            # championssavedata.attackCol = attack
+            # championssavedata.defenseCol = defense
+            # championssavedata.magicCol = magic
             championssavedata.difficultyCol = difficulty
-            championssavedata.imageCol = image
+            # championssavedata.imageCol = image
             championssavedata.hpCol = hp
-            championssavedata.movespeedCol = movespeed
-            championssavedata.armorCol = armor
-            championssavedata.attackrangeCol = attackrange
-            championssavedata.hpregenCol = hpregen
+            # championssavedata.movespeedCol = movespeed
+            # championssavedata.armorCol = armor
+            # championssavedata.attackrangeCol = attackrange
+            # championssavedata.hpregenCol = hpregen
             championssavedata.attackdamageCol = attackdamage
-            championssavedata.attackspeedCol = attackspeed
+            # championssavedata.attackspeedCol = attackspeed
             championssavedata.save()
     else:
         print("There is data in the database")
 
-    #Giving us errors because of the queryset
-    championsName = models.ChampionsTb.objects.values_list('nameCol')
-    return render(request, 'champions.html', championsName)
+    championsdata = ChampionsTb.objects.all()
+    # Giving us errors because of the queryset
+    return render(request, 'champions.html', {'championsdata': championsdata})
