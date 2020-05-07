@@ -1,404 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f17caf7c-73ed-477d-857a-8707efb1936a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+    <list default="true" id="f17caf7c-73ed-477d-857a-8707efb1936a" name="Default Changelist" comment="Changed the database queryset added data to the champions page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Aatrox_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Aatrox_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Ahri_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Ahri_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Akali_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Akali_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Alistar_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Alistar_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Amumu_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Amumu_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Anivia_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Anivia_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Annie_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Annie_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Aphelios_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Aphelios_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Ashe_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Ashe_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/AurelionSol_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/AurelionSol_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Azir_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Azir_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Bard_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Bard_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Blitzcrank_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Blitzcrank_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Brand_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Brand_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Braum_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Braum_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Caitlyn_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Caitlyn_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Camille_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Camille_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Cassiopeia_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Cassiopeia_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Chogath_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Chogath_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Corki_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Corki_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Darius_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Darius_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Diana_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Diana_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/DrMundo_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/DrMundo_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Draven_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Draven_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Ekko_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Ekko_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Elise_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Elise_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Evelynn_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Evelynn_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Ezreal_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Ezreal_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Fiddlesticks_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Fiddlesticks_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Fiora_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Fiora_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Fizz_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Fizz_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Galio_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Galio_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Gangplank_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Gangplank_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Garen_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Garen_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Gnar_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Gnar_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Gragas_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Gragas_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Graves_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Graves_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Hecarim_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Hecarim_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Heimerdinger_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Heimerdinger_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Illaoi_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Illaoi_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Irelia_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Irelia_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Ivern_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Ivern_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Janna_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Janna_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/JarvanIV_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/JarvanIV_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Jax_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Jax_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Jayce_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Jayce_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Jhin_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Jhin_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Jinx_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Jinx_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Kaisa_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Kaisa_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Kalista_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Kalista_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Karma_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Karma_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Karthus_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Karthus_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Kassadin_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Kassadin_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Katarina_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Katarina_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Kayle_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Kayle_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Kayn_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Kayn_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Kennen_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Kennen_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Khazix_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Khazix_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Kindred_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Kindred_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Kled_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Kled_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/KogMaw_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/KogMaw_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Leblanc_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Leblanc_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/LeeSin_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/LeeSin_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Leona_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Leona_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Lissandra_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Lissandra_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Lucian_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Lucian_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Lulu_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Lulu_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Lux_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Lux_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Malphite_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Malphite_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Malzahar_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Malzahar_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Maokai_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Maokai_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/MasterYi_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/MasterYi_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/MissFortune_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/MissFortune_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/MonkeyKing_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/MonkeyKing_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Mordekaiser_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Mordekaiser_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Morgana_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Morgana_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Nami_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Nami_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Nasus_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Nasus_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Nautilus_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Nautilus_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Neeko_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Neeko_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Nidalee_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Nidalee_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Nocturne_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Nocturne_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Nunu_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Nunu_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Olaf_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Olaf_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Orianna_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Orianna_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Ornn_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Ornn_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Pantheon_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Pantheon_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Poppy_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Poppy_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Pyke_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Pyke_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Qiyana_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Qiyana_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Quinn_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Quinn_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Rakan_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Rakan_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Rammus_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Rammus_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/RekSai_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/RekSai_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Renekton_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Renekton_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Rengar_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Rengar_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Riven_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Riven_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Rumble_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Rumble_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Ryze_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Ryze_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Sejuani_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Sejuani_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Senna_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Senna_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Sett_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Sett_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Shaco_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Shaco_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Shen_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Shen_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Shyvana_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Shyvana_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Singed_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Singed_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Sion_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Sion_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Sivir_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Sivir_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Skarner_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Skarner_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Sona_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Sona_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Soraka_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Soraka_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Swain_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Swain_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Sylas_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Sylas_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Syndra_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Syndra_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/TahmKench_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/TahmKench_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Taliyah_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Taliyah_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Talon_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Talon_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Taric_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Taric_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Teemo_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Teemo_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Thresh_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Thresh_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Tristana_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Tristana_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Trundle_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Trundle_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Tryndamere_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Tryndamere_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/TwistedFate_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/TwistedFate_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Twitch_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Twitch_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Udyr_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Udyr_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Urgot_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Urgot_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Varus_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Varus_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Vayne_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Vayne_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Veigar_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Veigar_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Velkoz_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Velkoz_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Vi_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Vi_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Viktor_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Viktor_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Vladimir_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Vladimir_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Volibear_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Volibear_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Warwick_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Warwick_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Xayah_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Xayah_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Xerath_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Xerath_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/XinZhao_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/XinZhao_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Yasuo_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Yasuo_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Yorick_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Yorick_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Yuumi_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Yuumi_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Zac_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Zac_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Zed_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Zed_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Ziggs_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Ziggs_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Zilean_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Zilean_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Zoe_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Zoe_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/championImages/Zyra_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/championImages/Zyra_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/champions/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1001.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1004.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1004.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1006.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1006.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1011.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1011.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1018.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1018.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1026.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1026.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1027.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1027.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1028.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1028.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1029.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1029.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1031.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1031.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1033.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1033.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1036.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1036.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1037.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1037.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1038.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1038.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1039.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1039.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1041.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1041.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1042.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1042.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1043.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1043.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1052.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1052.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1053.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1053.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1054.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1054.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1055.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1055.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1056.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1056.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1057.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1057.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1058.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1058.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1082.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1082.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1083.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1083.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1400.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1401.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1401.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1402.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1402.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1412.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1412.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1413.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1413.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1414.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1414.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1416.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1416.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/1419.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/1419.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2003.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2003.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2006.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2006.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2009.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2009.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2010.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2010.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2015.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2015.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2031.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2031.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2033.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2033.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2047.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2047.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2051.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2051.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2052.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2052.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2054.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2054.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2055.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2055.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2065.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2065.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2138.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2138.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2139.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2139.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2140.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2140.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2403.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2403.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2419.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2419.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2420.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2420.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2421.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2421.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2422.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2422.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2423.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2423.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/2424.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/2424.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3001.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3003.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3003.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3004.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3004.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3006.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3006.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3007.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3007.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3008.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3008.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3009.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3009.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3010.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3010.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3020.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3020.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3022.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3022.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3024.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3024.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3025.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3025.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3026.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3026.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3027.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3027.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3028.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3028.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3029.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3029.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3030.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3030.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3031.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3031.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3033.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3033.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3035.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3035.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3036.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3036.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3040.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3040.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3041.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3041.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3042.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3042.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3043.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3043.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3044.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3044.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3046.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3046.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3047.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3047.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3048.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3048.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3050.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3050.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3052.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3052.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3053.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3053.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3057.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3057.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3065.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3065.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3067.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3067.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3068.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3068.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3070.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3070.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3071.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3071.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3072.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3072.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3073.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3073.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3074.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3074.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3075.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3075.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3076.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3076.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3077.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3077.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3078.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3078.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3082.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3082.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3083.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3083.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3084.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3084.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3085.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3085.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3086.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3086.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3087.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3087.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3089.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3089.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3091.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3091.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3094.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3094.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3095.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3095.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3100.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3101.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3101.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3102.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3102.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3105.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3105.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3107.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3107.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3108.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3108.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3109.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3109.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3110.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3111.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3111.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3112.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3112.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3113.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3113.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3114.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3114.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3115.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3115.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3116.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3116.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3117.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3117.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3123.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3124.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3124.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3133.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3133.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3134.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3134.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3135.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3135.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3136.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3136.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3137.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3137.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3139.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3139.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3140.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3140.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3142.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3142.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3143.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3143.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3144.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3145.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3145.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3146.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3146.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3147.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3147.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3151.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3151.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3152.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3152.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3153.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3153.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3155.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3155.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3156.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3156.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3157.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3157.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3158.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3158.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3161.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3161.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3165.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3165.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3174.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3174.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3175.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3175.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3179.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3179.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3181.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3181.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3184.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3184.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3190.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3190.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3191.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3191.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3193.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3193.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3194.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3194.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3196.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3196.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3197.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3197.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3198.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3198.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3200.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3211.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3211.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3222.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3222.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3285.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3285.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3340.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3340.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3348.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3348.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3361.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3361.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3362.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3362.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3363.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3363.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3364.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3364.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3371.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3371.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3373.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3373.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3374.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3374.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3379.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3379.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3380.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3380.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3382.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3382.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3383.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3383.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3384.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3384.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3386.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3386.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3387.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3387.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3388.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3388.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3389.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3389.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3390.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3390.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3400.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3410.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3410.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3416.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3416.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3422.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3422.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3455.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3455.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3504.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3504.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3508.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3508.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3513.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3513.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3514.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3514.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3520.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3599.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3599.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3600.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3671.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3671.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3672.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3672.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3673.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3673.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3675.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3675.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3680.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3680.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3681.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3681.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3682.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3682.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3683.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3683.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3684.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3684.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3685.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3685.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3690.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3690.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3691.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3691.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3692.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3692.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3693.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3693.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3694.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3694.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3695.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3695.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3706.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3706.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3715.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3715.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3742.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3742.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3748.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3748.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3751.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3751.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3800.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3801.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3801.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3802.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3802.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3812.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3812.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3814.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3814.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3850.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3850.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3851.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3851.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3853.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3853.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3854.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3854.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3855.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3855.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3857.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3857.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3858.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3858.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3859.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3859.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3860.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3860.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3862.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3862.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3863.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3863.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3864.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3864.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3901.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3901.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3902.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3902.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3903.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3903.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3905.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3905.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3907.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3907.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/itemImages/3916.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/itemImages/3916.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/league_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/league_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/league_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/league_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/champions.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/champions.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -489,13 +93,28 @@
       <option name="project" value="LOCAL" />
       <updated>1588730208192</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed the database queryset added data to the champions page">
+      <created>1588844635591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588844635591</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changed the database queryset added data to the champions page">
+      <created>1588844666134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588844666134</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Migrated items model" />
     <MESSAGE value="Added items to the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added items to the database" />
+    <MESSAGE value="Changed the database queryset added data to the champions page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the database queryset added data to the champions page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1585011465928">
@@ -507,10 +126,10 @@
     </state>
     <state x="726" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585083793119" />
     <state x="2646" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588715464642" />
-    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1588844629301">
+    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1588844756278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588844629301" />
+    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588844756278" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1584991097762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
