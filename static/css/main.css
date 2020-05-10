@@ -1,3 +1,19 @@
+/* Navigation settings*/
+.navbar-custom {
+    background-color: #071013 !important;
+}
+.navbar-brand {
+    color: #ff6600 !important;
+}
+.nav-item .nav-link{
+    color: #fff !important;
+}
+.navbar-toggler {
+    color: #fff !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
 td:nth-child(even) {
     margin-left: 3px;
 }
@@ -10,19 +26,19 @@ td:nth-child(even) {
 
 .card-body {
     text-align: center;
-    margin-bottom: -29px;
+    margin-top: -76px;
+    margin-bottom: 10px;
+    background-color: #071013;
+    color: #fff;
 }
 .col-lg-2 {
     margin-top: 50px !important;
-    margin-bottom: 80px !important;
+    margin-bottom: 10px !important;
 }
-
-
 .list-group-item {
     padding: 0px !important;
     margin-top: 10px
 }
-
 .alert-danger {
     width: 150px !important;
     background-color: #f0312d !important;
@@ -38,11 +54,4 @@ td:nth-child(even) {
 .alert-info {
     width: 250px !important;
     background-color: #63c8f2 !important;
-}
-
-.card-body {
-    margin-top: -76px;
-    margin-bottom: 10px;
-    background-color: #071013;
-    color: #fff;
 }

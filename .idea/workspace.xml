@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f17caf7c-73ed-477d-857a-8707efb1936a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+    <list default="true" id="f17caf7c-73ed-477d-857a-8707efb1936a" name="Default Changelist" comment="Changed the database queryset added data to the champions page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/champions/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champions/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/champions/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/league_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/league_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/league_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/league_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/champions.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/champions.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588844666134</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changed the database queryset added data to the champions page">
+      <created>1589148751312</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589148751312</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed the database queryset added data to the champions page">
+      <created>1589148773155</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589148773155</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,10 +171,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="376" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588902886933" />
-    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1589148750206">
+    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1589148776650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589148750206" />
+    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589148776650" />
     <state x="278" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1588902940327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
