@@ -53,6 +53,7 @@ def champions(request):
             # championssavedata.attackspeedCol = attackspeed
             championssavedata.save()
     else:
+        # ChampionsTb.objects.all().delete()
         print("There is data in the database")
 
     championsdata = ChampionsTb.objects.all()

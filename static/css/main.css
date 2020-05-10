@@ -1,0 +1,48 @@
+td:nth-child(even) {
+    margin-left: 3px;
+}
+
+.alert-primary {
+    width: 500px;
+    background-color: #071013 !important;
+    color: #fff !important;
+}
+
+.card-body {
+    text-align: center;
+    margin-bottom: -29px;
+}
+.col-lg-2 {
+    margin-top: 50px !important;
+    margin-bottom: 80px !important;
+}
+
+
+.list-group-item {
+    padding: 0px !important;
+    margin-top: 10px
+}
+
+.alert-danger {
+    width: 150px !important;
+    background-color: #f0312d !important;
+}
+.alert-success {
+    width: 120px !important;
+    background-color: #5aba4a !important;
+}
+.alert-warning {
+    width: 120px !important;
+    background-color: #f7cc3b !important;
+}
+.alert-info {
+    width: 250px !important;
+    background-color: #63c8f2 !important;
+}
+
+.card-body {
+    margin-top: -76px;
+    margin-bottom: 10px;
+    background-color: #071013;
+    color: #fff;
+}
