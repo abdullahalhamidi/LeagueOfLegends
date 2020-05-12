@@ -1,45 +1,17 @@
+{% extends "base.html" %}
 {% load static %}
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Document</title>
-</head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-custom">
-            <button aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarTogglerDemo01" data-toggle="collapse" type="button"> Menu</button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">League of Legends</a>
-                <ul class="navbar-nav ml-auto mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Champions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Items</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="search"> <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-    </nav>
+{% block content %}
 <div class="container-fluid">
-    <div class="row">
+    <div class="champion-row row">
         {% for champion in championsdata %}
                 <div class="col-sm-6 col-md-4 col-lg-2">
                     <div class="card">
                         <img alt="champions details" class="card-img-top" src="{% static 'championImages/'|add:champion.idCol|add:'_0.jpg' %}">
-                        <div class="card-body">
+                        <div class="champion-body card-body">
                             <h5 class="card-title">{{champion.nameCol}}</h5>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
+                            <li class="list-group-item item-one">
                                 <table>
                                     <td class="alert alert-primary">Attack Damage:</td>
                                     <td class="alert alert-danger"><strong>{{champion.attackdamageCol}}<strong></td>
@@ -69,9 +41,4 @@
         {% endfor %}
     </div>
 </div>
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-</html>
+{% endblock %}

@@ -9,7 +9,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^$', homepage),
-    url(r'^champions/$', champions),
-    url(r'^items/$', items),
+    url(r'^$', homepage, name='homepage'),
+    url(r'^champions/$', champions, name='champions'),
+    url(r'^items/$', items, name='items'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

@@ -24,7 +24,7 @@ td:nth-child(even) {
     color: #fff !important;
 }
 
-.card-body {
+.champion-body {
     text-align: center;
     margin-top: -76px;
     margin-bottom: 10px;
@@ -54,4 +54,23 @@ td:nth-child(even) {
 .alert-info {
     width: 250px !important;
     background-color: #63c8f2 !important;
+}
+.item-body {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #071013;
+    color: #fff;
+}
+.item-title {
+    font-size: 1rem;
+}
+.item-row {
+    margin-top:20px !important;
+}
+.champion-row {
+    margin-top:20px !important;
+}
+.item-one {
+    margin-top: -5px;
 }

@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f17caf7c-73ed-477d-857a-8707efb1936a" name="Default Changelist" comment="Changed the database queryset added data to the champions page">
+    <list default="true" id="f17caf7c-73ed-477d-857a-8707efb1936a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/champions/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/champions/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/items/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/items/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/items/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/items/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/items/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/items/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/league_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/league_project/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/champions.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/champions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/items.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589148773155</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changed the database queryset added data to the champions page">
+      <created>1589151982428</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589151982428</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,10 +187,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="376" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588902886933" />
-    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1589148776650">
+    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1589151991404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589148776650" />
+    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589151991404" />
     <state x="278" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1588902940327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -227,18 +243,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="435" key="VCS.ChangelistChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588902848041" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589148756166">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589151984350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589148756166" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589151984350" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1585084155180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585084155180" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589145190833">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589229033945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589145190833" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589229033945" />
     <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588719101602" />
     <state x="531" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585083168665">
       <screen x="0" y="0" width="1920" height="1040" />

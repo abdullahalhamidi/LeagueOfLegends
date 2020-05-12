@@ -57,5 +57,8 @@ def champions(request):
         print("There is data in the database")
 
     championsdata = ChampionsTb.objects.all()
-    # Giving us errors because of the queryset
+    champname = request.GET.get('search')
+    if champname != '' and champname is not None:
+        championsdata = championsdata.filter(idCol=champname)
+    print(champname)
     return render(request, 'champions.html', {'championsdata': championsdata})
