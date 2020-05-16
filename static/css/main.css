@@ -1,12 +1,22 @@
 /* Navigation settings*/
+.logo {
+    width: 40px;
+    height: 40px;
+    padding: 0px !important;
+    margin:0px !important;
+}
 .navbar-custom {
     background-color: #071013 !important;
 }
 .navbar-brand {
     color: #ff6600 !important;
+    font-family: 'Montserrat', sans-serif;
 }
 .nav-item .nav-link{
     color: #fff !important;
+    font-size: 1.1em;
+    padding:2px;
+    font-family: 'Montserrat', sans-serif;
 }
 .navbar-toggler {
     color: #fff !important;
@@ -73,4 +83,107 @@ td:nth-child(even) {
 }
 .item-one {
     margin-top: -5px;
+}
+
+.alert-price {
+    background-color: #5aba4a  !important;
+    color: #155724 !important;
+}
+
+.alert-sell {
+    background-color: #f7cc3b !important;
+    color: #155724 !important;
+}
+
+.item-images {
+    width:
+}
+
+.navBarSearchForm {
+    width:220px !important;
+}
+
+.ml-auto {
+    margin-right: 40px;
+}
+.video-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh !important;
+    padding: 0px !important;
+    align-items: flex-start;
+}
+.carousel {
+    height: 100vh !important;
+}
+.carousel {
+    height: 100vh;
+    width: 100%;
+    overflow:hidden;
+}
+.carousel .carousel-inner {
+    height:100%;
+}
+.image_logo {
+    margin-top: 90px;
+    position: absolute;
+    z-index: 1;
+    max-width: 100%;
+}
+.image_logo_style {
+    width: 300px;
+}
+
+.row-info {
+    margin-top: 90px;
+}
+.card {
+    margin-bottom: 90px;
+}
+.card-block {
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+}
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+@media screen and (max-width: 574px) {
+    .video-header {
+    height: 30vh !important;
+}
+}
+@media screen and (min-width: 575px) and (max-width: 700px) {
+        .video-header {
+            height: 40vh !important;
+        }
+
+.card-block {
+    height: 300px;
+}
+}
+@media screen and (min-width: 710px) and (max-width: 800px) {
+    .video-header {
+            height: 48vh !important;
+        }
+}
+
+@media screen and (min-width: 810px) and (max-width: 900px) {
+.video-header {
+            height: 53vh !important;
+        }
+}
+
+@media screen and (min-width: 910px) and (max-width: 1200px) {
+.video-header {
+            height: 57vh !important;
+        }
 }
